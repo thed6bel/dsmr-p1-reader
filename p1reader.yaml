@@ -9,6 +9,8 @@ esphome:
 
 # Enable Home Assistant API
 api:
+  encryption:
+    key: "ppla8Y/4e1yMGcsuY0qfu8z/SwvyNkKWnMIKMgSz3vc="
 
 ota:
   password: "aec6ad61874da9a41c8abfadd94ce220"
