@@ -1,3 +1,5 @@
+LAST VERSION OF DSMR WORK PERFECTLY WITH ALL BELGIUM DIGITAL METER 
+
 # dsmr-p1-reader
 dsmr p1 for sibelga digital meter
 
