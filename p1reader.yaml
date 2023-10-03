@@ -63,6 +63,10 @@ sensor:
       name: ${friendly_name} Power Consumed
     power_returned:
       name: ${friendly_name} Power Returned
+    electricity_threshold:
+      name: ${friendly_name} Electricity Threshold
+    electricity_switch_position:
+      name: ${friendly_name} Electricity Switch Position
     electricity_failures:
       name: ${friendly_name} Electricity Failures
     electricity_long_failures:
@@ -91,6 +95,8 @@ sensor:
       name: ${friendly_name} Power Returned L2
     power_returned_l3:
       name: ${friendly_name} Power Returned L3
+    water_delivered:
+      name: ${friendly_name} Water Delivered
     gas_delivered_be:
       name: ${friendly_name} Gas Delivered BE
     active_energy_import_current_average_demand:
@@ -99,8 +105,6 @@ sensor:
       name: ${friendly_name} Max Demande Running Month
     active_energy_import_maximum_demand_last_13_months:
       name: ${friendly_name} Max Demande Last 13 months
-    # water_delivered:
-    #   name: ${friendly_name} Water Delivered
 
   - platform: wifi_signal
     name: "WiFi Signal Strenght"
@@ -136,6 +140,11 @@ text_sensor:
       name: ${friendly_name} Version BE
     message_long:
       name: ${friendly_name} Message Long
+    timestamp:
+      name: ${friendly_name} Timestamp
+    electricity_tariff:
+      name: ${friendly_name} Electricity Tariff
+
   - platform: wifi_info
     ip_address:
       name: "IP Address"
