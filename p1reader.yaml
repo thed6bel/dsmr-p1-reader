@@ -115,7 +115,7 @@ sensor:
     source_id: wifi_signal_db
     name: "WiFi Signal (percent)"
     id: wifi_signal_pct
-    unit_of_measurement: "Signal %"
+    unit_of_measurement: "%"
     accuracy_decimals: 0
     filters:
       - lambda: return min(max(2 * (x + 100.0), 0.0), 100.0);
