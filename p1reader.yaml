@@ -9,8 +9,8 @@ esphome:
   board: d1_mini
   name_add_mac_suffix: false
   project:
-    name: zuidwijk.slimmelezer
-    version: "1.2"
+    name: dsmr.p1
+    version: "1.0"
   on_boot:
     then:
       - if:
