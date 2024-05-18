@@ -78,6 +78,12 @@ uart:
   rx_pin: D7
   baud_rate: 115200
   rx_buffer_size: 1500
+  # debug:
+  #   direction: RX
+  #   after:
+  #     delimiter: "\r\n"
+  #   sequence:
+  #     - lambda: UARTDebug::log_string(direction, bytes);
 
 
 dsmr:
